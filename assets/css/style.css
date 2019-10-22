@@ -1,0 +1,48 @@
+body {
+    background-image: url('../images/wheat.png');
+    margin: 0;
+}
+
+.container {
+        background-color:#a39797;
+        margin: auto;
+        margin-top: 35px;
+        height: 500px;
+        width: 960px;
+        color:#777777;
+        line-height: 25px;
+        text-align: center;
+      }
+
+      .title {
+          color: rgb(61, 54, 52);
+          font-family: fantasy;
+          font-size: 50px;
+          display: inline-block;
+          vertical-align: middle;
+
+      }
+
+      .title::before {
+        content: '';
+        display: inline-block;
+        height: 100%; 
+        margin-top: 2em;
+    
+      }
+      
+      .start {
+        margin-top: 150px;
+        height: 100px;
+        width: 150px;
+        font-family: fantasy;
+        display: inline-block;
+        font-size: xx-large;
+
+      }
+
+      .start:hover {
+        background-color: #4e5c5b;
+        color: white;
+        cursor: pointer;
+      }
