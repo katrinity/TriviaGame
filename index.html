@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Trivia Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
 </head>
+
 <body>
         <header class="headerContainer">
                 <div class="row justify-content-md-center ">
@@ -18,17 +22,24 @@
                 </div>
         </header>
 
-        <div class="container"> 
+        <div class="container">
                 <div class="row justify-content-md-center">
-                <div class="col-md-8">
-                        <div class="title">Totaly Trivial Trivia</div>
-                        <div class="button">
-                            <button class="start">Start</button>
+                        <div class="col-md-8">
+                                <div class="title">Totaly Trivial Trivia</div>
+                                <div class="button">
+                                        <button class="start">Start</button>
+                                </div>
+                                <div class="quiz-container">
+                                        <div id="quiz"></div>
+                                </div>
+                                <button id="previous">Previous Question</button>
+                                <button id="next">Next Question</button>
+                                <button id="submit">Submit Quiz</button>
+                                <div id="results"></div>
                         </div>
                 </div>
-                </div>
         </div>
-    
-    
+
 </body>
+
 </html>
