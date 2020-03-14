@@ -11,22 +11,44 @@
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="assets/javascript/app.js"></script>
+
 </head>
 
 <body>
-        <header class="headerContainer">
-                <div class="row justify-content-md-center ">
-                        <div class="col-md-4">
-                        </div>
-                </div>
-        </header>
+        <!-- <div class="container"> -->
+        <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                        <div class="header">
+                                <!-- <div class="row justify-content-md-center ">
+                        <div class="col-md-4"> -->
+                                <h1>USA Trivia Game</h1>
+                                <div id="timer-display">02:00</div>
 
-        <div class="container">
-                <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                                <div class="title">Totaly Trivial Trivia</div>
-                                <div class="button">
+                                <!-- </div>
+                </div> -->
+                        </div>
+
+
+                        <button class="start">Start</button>
+
+
+                        <div class="question-block ">
+
+
+                        </div>
+
+
+                        <div class="results">
+                                <h2 id="correct"> Correct: </h2>
+                                <h2 id="incorrect"> Incorrect: </h2>
+                                <h2 id="unanswered"> Unanswered: </h2>
+                        </div>
+
+                        <button class="done">Done!</button>
+
+                        <button class="reset">Reset</button>
+
+                        <!-- <div class="button">
                                         <button class="start">Start</button>
                                 </div>
                                 <div class="quiz-container">
@@ -35,10 +57,14 @@
                                 <button id="previous">Previous Question</button>
                                 <button id="next">Next Question</button>
                                 <button id="submit">Submit Quiz</button>
-                                <div id="results"></div>
-                        </div>
+                                <div id="results"></div> -->
                 </div>
         </div>
+        </div>
+        <!--Link to jQuery CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Link to Javascript-->
+        <script src="assets/javascript/app.js"></script>
 
 </body>
 
